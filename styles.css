@@ -3,6 +3,8 @@
     padding: 0;
 }
 
+/* */
+
 #background {
     background-color: #1F2937;
     background-position: center center;
@@ -14,16 +16,23 @@
     padding-right: 180px;
 }
 
+#logo {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.header {
+    display: flex;
+    gap: 20px;
+}
+
 header {
     color: #E5E7EB;
-    display: flex;
-    justify-content: flex-end;
-    flex-wrap: nowrap;
-    flex-direction: row;
     gap: 20px;
     font-size: 18px;
     font-family: 'Roboto Mono', monospace;
-
+    display: flex;
+    justify-content: space-between;
 }
 
 #logo {
@@ -33,36 +42,34 @@ header {
     color: #F9FAF8;
 }
 
+/* */
+
 .container {
     padding-top: 120px;
-    width: 100%;
     display: flex;
-    flex-flow: row wrap;
-    justify-content: flex-start;
-
+    flex-basis: 50% 50%;
+    justify-content: space-between;
 }
 
-#placeholder {
-    height: 250px;
+.column1 {
+    display: flex;
+    flex-direction: column;
     width: 50%;
-    background-image: url("images/coffee.jpg");
-    background-size: cover;
 }
 
 #Main {
     font-size: 48px;
     font-family: 'Montserrat', sans-serif;;
     color: #F9FAF8;
-    width: 50%;
+    flex-wrap: wrap;
 }
 
 #Secondary {
-    margin-top: -130px;
-    height: fit-content;
     font-size: 18px;
     font-family: 'Roboto Mono', monospace;
     color: #E5E7EB;
-    width: 45%;
+    width: 90%;
+    flex-wrap: wrap;
 }
 
 button {
@@ -71,11 +78,23 @@ button {
     background-color: #3882F6;
     color: #F9FAF8;
     border: none;
-    padding: 10px 32px;
+    padding: 10px px;
     border-radius: 10px;
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
+    width: 30%;
+    height: 35px;
 }
+
+.image1 {
+    height: 250px;
+    width: 50%;
+    background-image: url("images/coffee.jpg");
+    background-size: cover;
+    
+}
+
+/* */
 
 #info_header {
     display: flex;
