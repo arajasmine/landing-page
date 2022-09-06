@@ -103,13 +103,25 @@ button {
     font-size: 36px;
     color: #152937;
      font-family: 'Montserrat', sans-serif;
+     padding-bottom: 50px ;
 }
 
-.pictures{
+.container2 {
     display: flex;
     justify-content: center;
-    padding-top: 50px;
-    gap: 50px;
+    gap: 45px;
+    padding-bottom: 100px;
+}
+
+.col-1 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.text {
+    margin-top: 10px;
+    justify-content: center;
 }
 
 .picture1{
@@ -142,7 +154,24 @@ button {
 
 
 .text {
+    text-align: center;
     display: flex;
     justify-content: center;
     gap: 50px;
+    color: #152937;
+    width: 155px;
+}
+
+.bg2 {
+    background-color: #E5E7EB;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    padding: 150px 300px;
+    font-style: italic;
 }
