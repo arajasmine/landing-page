@@ -59,7 +59,7 @@ header {
 
 #Main {
     font-size: 48px;
-    font-family: 'Montserrat', sans-serif;;
+    font-family: 'Montserrat', sans-serif;
     color: #F9FAF8;
     flex-wrap: wrap;
 }
@@ -183,7 +183,50 @@ button {
 }
 
 .author {
-   padding-left: 60%;
+   padding-left: 40%;
    padding-top: 10px;
 }
 
+.cta {
+    background-color: #3882F6;
+    width: 980px;
+    margin-top: 100px;
+    margin-bottom: 250px;
+    margin-left: 200px;
+    margin-right: 100px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-bottom: 40px;
+}
+
+.ctah1 {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-weight: 200;
+    font-size: x-large;
+}
+
+.ctap {
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+}
+
+.button2 {
+    margin-top: -330px;
+    margin-left: 1050px;
+    padding: 0px;
+    width: 100px;
+    border-style: solid;
+    border-color: white;
+}
+
+.footer {
+    margin-top: 150px;
+    background: #1F2937;
+    color: white;
+    padding: 50px;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+}
